@@ -1,0 +1,132 @@
+body {background-color:#D8D3C9;
+  padding:28px ;
+  font-family: "Space Grotesk", sans-serif;
+
+  }
+  .container {
+  display: grid;    
+  max-width: 850px;
+  height: 550px;
+  margin: auto;
+      gap: 14px;
+     border-radius: 24px;
+     grid-template-columns: 1.5fr 1.05fr 0.9fr;
+grid-template-areas:
+    "container1 container2 container3" 
+    "container1 container4 container5";
+    grid-template-rows: 2fr 1fr;
+}
+
+
+.container1 {
+  display: flex;
+  background-color: #F5F2EA;
+  grid-area: container1;
+     border-radius: 24px;
+
+ padding: 28px;
+
+ flex-direction:column;
+ justify-content:space-between ;
+ 
+  .top {
+      display:flex;
+  flex-direction:row;
+    justify-content:space-between ;
+    font-size: 12px;
+
+  }
+  
+ h1 {font-size: 90px;
+  line-height: 0.9;
+ }
+}
+
+.container2 {
+  display: flex;
+  background-color: #181818;
+     grid-area: container2;
+     border-radius: 24px;
+     color: aliceblue;
+
+ padding: 28px;
+
+ flex-direction:column;
+ justify-content:space-between ;
+ 
+}
+
+.container3 {
+  display: flex;
+  background-color: #D8FF45;
+ grid-area: container3;
+     border-radius: 24px;
+
+ padding: 28px;
+
+  flex-direction:column;
+ justify-content:space-between ;
+ a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: blue;
+}
+}
+
+.container4 {
+  display: flex;
+  background-color: #F5F2EA;
+  grid-area: container4;
+     border-radius: 24px;
+
+ padding: 28px;
+
+   flex-direction:column;
+ justify-content:space-between ;
+}
+
+.container5 {
+ display: flex;
+  background-color: #6758F5;
+ grid-area: container5;
+     border-radius: 24px;
+color: aliceblue;
+
+ padding: 28px;
+
+  flex-direction:column;
+ justify-content:space-between ;
+
+  a {
+    color:  aliceblue;
+    text-decoration: none;
+    
+    
+}
+}
+
+@media (max-width: 700px) {
+  body {background-color:#D8D3C9;
+  padding:28px ;
+  }
+.container {
+  display: grid;    
+  max-width: 1200px;
+  min-height: 800px;
+  margin: auto;
+      gap: 14px;
+     border-radius: 24px;
+     grid-template-columns: 1fr ;
+grid-template-areas:
+    "container1"
+    "container2"
+    "container3"
+    "container4"
+    "container5";
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+}
+}

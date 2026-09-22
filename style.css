@@ -1,7 +1,12 @@
 body {background-color:#D8D3C9;
   padding:28px ;
   font-family: "Space Grotesk", sans-serif;
-
+   }
+.Malé { font-size: 11px;
+  justify-content:space-between ;
+  }
+  .Důvod { font-size: 11px;
+  font-color: #565758;
   }
   .container {
   display: grid;    

@@ -44,7 +44,11 @@ grid-template-areas:
   
  h1 {font-size: 90px;
   line-height: 0.9;
+  margin: 0px;
+  
  }
+ 
+ 
 }
 
 .container2 {
@@ -74,10 +78,19 @@ grid-template-areas:
  justify-content:space-between ;
  a {
     color: black;
-    text-decoration: none;
+    text-decoration:none;
+    font-weight:bolder;
+  
 
 }
-.thermo {font-size: 28px; }
+.Thermo {font-size: 32px;
+}
+h3 {margin: 0px; }
+
+.Dolulu {margin-bottom:0px;
+  margin-top: -15px;
+}
+
 a:hover {
     color: blue;
 }
@@ -95,7 +108,7 @@ a:hover {
    flex-direction:column;
  justify-content:space-between ;
  .top {font-size: 12px; }
- .bot{ font-size: 28px;}
+ .bot{ font-size: 26px;}
 }
 
 .container5 {
@@ -112,11 +125,14 @@ color: aliceblue;
 
   a {
     color:  aliceblue;
-    text-decoration: none;
+    
     
     
 }
-.top {font-size: 12px; }
+.top {font-size: 12px;
+}
+h1 {font-size: 32px;
+  margin: 0px;}
 }
 
 @media (max-width: 700px) {

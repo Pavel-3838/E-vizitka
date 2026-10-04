@@ -65,9 +65,12 @@ grid-template-areas:
  flex-direction:column;
  justify-content:space-between ;
  .top {font-size: 12px; }
- h1 {font-size: 32px;
-  fot-weight: bolder;
-  margin: 0px; margin-left: 5px; }
+ h1 {
+  font-size: 42px;     
+  font-weight: 700;     
+  line-height: 1.05;    
+  font-weight: bold;     
+}
  .Důvod {color:#a3a4a7;
   }
 }
@@ -116,8 +119,12 @@ a:hover {
  justify-content:space-between ;
  .top {font-size: 12px; }
  
- .bot{ font-size: 26px; margin-left: 5px; 
+ .bot h4{ font-size: 26px;
+  line-height: 1.12;
+  margin: 0;          
+  margin-left: 5px;
 }
+
 }
 
 .container5 {

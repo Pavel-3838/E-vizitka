@@ -5,9 +5,8 @@ body {background-color:#D8D3C9;
 .Malé { font-size: 11px;
   justify-content:space-between ;
   }
-  .Důvod { font-size: 11px;
-  font-color: #565758;
-
+  .duvod p { font-size: 11px;
+  color:#B5B5B5;
   }
   .container {
   display: grid;    
@@ -24,7 +23,7 @@ grid-template-areas:
 }
 
 
-.container1 {
+.uvod {
   display: flex;
   background-color: #F5F2EA;
   grid-area: container1;
@@ -53,7 +52,7 @@ grid-template-areas:
   
 }
 
-.container2 {
+.specializace {
   display: flex;
   background-color: #181818;
      grid-area: container2;
@@ -75,7 +74,7 @@ grid-template-areas:
   }
 }
 
-.container3 {
+.projekty {
   display: flex;
   background-color: #D8FF45;
  grid-area: container3;
@@ -94,7 +93,7 @@ grid-template-areas:
 }
 .Thermo {font-size: 32px;
 }
-h3 {font-size: 40px;
+h1 {font-size: 40px;
   margin: 0px; margin-left: 5px; }
 
 .Dolulu {margin-bottom:0px;
@@ -107,7 +106,7 @@ a:hover {
 .top {font-size: 12px; }
 }
 
-.container4 {
+.ja {
   display: flex;
   background-color: #F5F2EA;
   grid-area: container4;
@@ -119,7 +118,7 @@ a:hover {
  justify-content:space-between ;
  .top {font-size: 12px; }
  
- .bot h4{ font-size: 26px;
+ .bot h1{ font-size: 26px;
   line-height: 1.12;
   margin: 0;          
   margin-left: 5px;
@@ -127,7 +126,7 @@ a:hover {
 
 }
 
-.container5 {
+.kontakt {
  display: flex;
   background-color: #6758F5;
  grid-area: container5;
